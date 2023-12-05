@@ -1,6 +1,6 @@
 use crate::prelude::*;
 
-pub fn process(input: &str) -> Result<u64> {
+pub fn process(_input: &str) -> Result<u64> {
     println!("part2!");
     Ok(0)
 }
