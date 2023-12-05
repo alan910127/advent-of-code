@@ -1,10 +1,16 @@
-# AdventOfCode
+# Advent of Code
 
 This is my solutions for the [Advent of Code](https://adventofcode.com/) challenges.
 
+[![Rust](https://img.shields.io/badge/language-rust-orange?style=for-the-badge&logo=rust)](https://www.rust-lang.org)
+[![Just](https://img.shields.io/badge/command_runner-just-skyblue?style=for-the-badge)](https://just.systems/)
+
+[![Cargo Workspace](https://img.shields.io/badge/organized_with-cargo_workspace-blue)](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html)
+[![Cargo Watch](https://img.shields.io/badge/developed_with-cargo_watch-blue)](https://watchexec.github.io/#cargo-watch)
+[![Cargo Generate](https://img.shields.io/badge/code_generation-cargo_generate-blue)](https://cargo-generate.github.io/cargo-generate/)
+
 ## Table of Contents
 
-- [Technologies](#technologies)
 - [Usage](#usage)
   - [Prerequisites](#prerequisites)
   - [Generate a new day](#generate-a-new-day)
@@ -12,13 +18,6 @@ This is my solutions for the [Advent of Code](https://adventofcode.com/) challen
   - [Running tests](#running-tests)
   - [Running lint](#running-lint)
 - [References](#references)
-
-## Technologies
-
-- [Rust](https://www.rust-lang.org/)
-- [Cargo Workspace](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html)
-- [Cargo Generate](https://cargo-generate.github.io/cargo-generate/)
-- [Just](https://just.systems/man/en/)
 
 ## Usage
 
