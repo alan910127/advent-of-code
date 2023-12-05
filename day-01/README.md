@@ -407,7 +407,7 @@ fn find_first_digit(line: &str) -> Option<u32> {
     let mut chars = line.chars();
     for idx in 0..line.len() {
         if let Some(digit) = chars.next().and_then(|c| c.to_digit(10)) {
-            return digit;
+            return Some(digit);
         }
         let sliced = &line[..=idx];
         match_suffix! {
@@ -430,10 +430,10 @@ fn find_last_digit(line: &str) -> Option<u32> {
     let mut chars = line.chars().rev();
     for idx in (0..line.len()).rev() {
         if let Some(digit) = chars.next().and_then(|c| c.to_digit(10)) {
-            return digit;
+            return Some(digit);
         }
         let sliced = &line[idx..];
-        match_suffix! {
+        match_prefix! {
             sliced,
             "one" => 1,
             "two" => 2,
