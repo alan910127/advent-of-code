@@ -14,7 +14,7 @@ test $day $part:
     #!/usr/bin/env bash
     set -euo pipefail
     name=day-$(echo "00$day" | tail -c 3)
-    part="part-$part"
+    part="part$part"
     cargo test -p $name $part
     
 lint $day:   
@@ -27,5 +27,5 @@ run $day $part:
     #!/usr/bin/env bash
     set -euo pipefail
     name=day-$(echo "00$day" | tail -c 3)
-    part="part-$part"
+    part="part$part"
     cargo run -p $name --bin $part
