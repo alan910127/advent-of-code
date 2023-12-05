@@ -2,7 +2,7 @@ use crate::prelude::*;
 
 pub fn process(input: &str) -> Result<u64> {
     println!("part1!");
-    return Ok(0);
+    Ok(0)
 }
 #[cfg(test)]
 mod tests {
