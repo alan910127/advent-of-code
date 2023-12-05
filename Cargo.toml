@@ -1,4 +1,8 @@
 [workspace]
 resolver = "2"
-
 members = ["day-*"]
+
+[workspace.dependencies]
+color-eyre = "0.6.2"
+thiserror = "1.0.50"
+rstest = "0.18.2"
