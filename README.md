@@ -22,6 +22,9 @@ This is my solutions for the [Advent of Code](https://adventofcode.com/) challen
 
 ## Usage
 
+- The `<day>` argument is expected to be a number between 1 and 25.
+- The `<part>` argument is expected to be either `1` or `2`.
+
 ### Prerequisites
 
 ```shell
