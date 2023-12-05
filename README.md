@@ -17,6 +17,7 @@ This is my solutions for the [Advent of Code](https://adventofcode.com/) challen
   - [Working on one part of a day](#working-on-one-part-of-a-day)
   - [Running tests](#running-tests)
   - [Running lint](#running-lint)
+  - [Running a part with the input](#running-a-part-with-the-input)
 - [References](#references)
 
 ## Usage
@@ -52,6 +53,14 @@ just test <day>
 ```shell
 just lint <day>
 ```
+
+### Running a part with the input
+
+```shell
+just run <day> <part>
+```
+
+> **Note**: The input is expected to be placed in the `src/input.txt` file.
 
 ## References
 
